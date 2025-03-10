@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome to My Portfolio{% endblock %}
+
+{% block content %}
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Durga Madhab Swain</span></h1>
+            <p class="hero-subtitle">Data Scientist & Full Stack Developer</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Data Scientist and Full Stack Developer with expertise in building data-driven applications and creating insightful visualizations. I specialize in turning complex data into actionable insights.</p>
+                    <p>With a strong foundation in machine learning, statistical analysis, and web development, I strive to create impactful solutions that help businesses make data-driven decisions.</p>
+                </div>
+                <div class="about-image">
+                    <img src="/static/img/profile-placeholder.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <!-- Data Science Projects -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://cdn4.vectorstock.com/i/1000x1000/73/08/stock-market-analysis-vector-5587308.jpg" alt="Stock Market Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Stock Market Analysis & Prediction</h3>
+                        <p>Time series analysis and prediction of stock market trends using LSTM neural networks and statistical models. Interactive visualizations using Plotly and Dash.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Plotly</span>
+                            <span>Pandas</span>
+                        </div>
+                        <a href="#" class="btn secondary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://user-images.githubusercontent.com/44115595/72658488-4df4c600-3977-11ea-8fc7-263d2884c4e7.png" alt="Google Play Store Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Google Play Store Apps Analysis</h3>
+                        <p>Comprehensive Exploratory Data Analysis (EDA) of 10,000+ Google Play Store apps. Includes data cleaning, statistical analysis, and interactive visualizations to uncover trends in the Android app market.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                            <span>Jupyter</span>
+                        </div>
+                        <a href="#" class="btn secondary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://www.proxzar.ai/wp-content/uploads/2019/12/Importance-of-NLP-for-businesses-Sentiment-analysis.png" alt="NLP Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sentiment Analysis Platform</h3>
+                        <p>Real-time sentiment analysis of social media data using NLP. Features include topic modeling, emotion detection, and trend analysis with interactive visualizations.</p>
+                        <div class="project-tags">
+                            <span>NLTK</span>
+                            <span>BERT</span>
+                            <span>D3.js</span>
+                            <span>Flask</span>
+                        </div>
+                        <a href="#" class="btn secondary">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://www.iiba.org/contentassets/cfc3cc6166b04b8b9cf1a19caa7c1253/the-need-for-business-data-analytics-continues-to-grow-during-covid-19-header.jpg" alt="COVID Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3>COVID-19 Data Analysis</h3>
+                        <p>Comprehensive analysis of COVID-19 data including trend prediction, vaccination impact study, and interactive geographic visualization using Folium.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Folium</span>
+                            <span>Matplotlib</span>
+                            <span>Prophet</span>
+                        </div>
+                        <a href="#" class="btn secondary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Data Science</h3>
+                    <ul class="skill-list">
+                        <li>Machine Learning</li>
+                        <li>Statistical Analysis</li>
+                        <li>Deep Learning</li>
+                        <li>NLP</li>
+                        <li>Time Series Analysis</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Visualization</h3>
+                    <ul class="skill-list">
+                        <li>Plotly</li>
+                        <li>D3.js</li>
+                        <li>Tableau</li>
+                        <li>Power BI</li>
+                        <li>Seaborn</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>TensorFlow</li>
+                        <li>Scikit-learn</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form" method="post">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+{% endblock %} 
